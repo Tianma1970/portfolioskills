@@ -1,0 +1,46 @@
+# Copyright (C) 2020 Tillmann Weimer
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/portfolio\n"
+"Last-Translator: admin <tillmann1970@gmail.com>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-01T16:13:35+00:00\n"
+"PO-Revision-Date: 2020-01-01 16:22+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: portfolio\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#. Theme Name of the theme
+msgid "Portfolio"
+msgstr ""
+
+#. Description of the theme
+msgid "This theme shows all my Web Developer projects"
+msgstr "Dieses Thema gibt einen Überblick über meine Projekte"
+
+#. Author of the theme
+msgid "Tillmann Weimer"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://cycling.remlost.eu/"
+msgstr ""
+
+#: 404.php:4
+msgid "Something went wrong🤮"
+msgstr "Irgendwas haut hier nicht hin 🤮"
+
+#: index.php:10
+msgid "My Programming skills"
+msgstr "Meine Programmierkentnisse"
+
+#: index.php:22
+msgid "Reset Data"
+msgstr "Daten zurücksetzen"
