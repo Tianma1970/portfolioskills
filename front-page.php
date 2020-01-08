@@ -1,24 +1,21 @@
 <?php
 
-get_header();
-?>
- <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
- 		crossorigin="anonymous"></script> -->
-		
- 
-            <?php printf(__('My Programming skills', 'portfolio')); ?></div>
+get_header(); ?>
+
+<h1 class="text-center">My Programming skills</h1>
+<p class="text-center"><i>push a button</i></p>
                 <!--The animator-->
-                <!-- <div class="container">
+                <div class="container">
                         <div class="data mt-9 mt-1">
-                            <input type="radio" name="data"         value="85"><label>WordPress</label>
-                            <input type="radio" name="data"         value="99"><label>i18n</label>
-                            <input type="radio" name="data"         value="60"><label>Docker</label>
-                            <input type="radio" name="data"         value="65"><label>PHP</label>
-                            <input type="radio" name="data"         value="70"><label>JavaScript</label>
-                            <input type="radio" name="data"         value="90"><label>HTML</label>
-                            <input type="radio" name="data"         value="90"><label>CSS</label>
-                            <input type="radio" name="data"         value="85"><label>SCRUM</label>
+                            <input type="radio" name="data"         value=<?php the_field('wordpress'); ?>><label>WordPress</label>
+                            <input type="radio" name="data"         value=<?php the_field('i18n'); ?>><label>i18n</label>
+                            <input type="radio" name="data"         value=<?php the_field('docker'); ?>><label>Docker</label>
+                            <input type="radio" name="data"         value=<?php the_field('php'); ?>><label>PHP</label>
+                            <input type="radio" name="data"         value=<?php the_field('javascript'); ?>><label>JavaScript</label>
+                            <input type="radio" name="data"         value=<?php the_field('html'); ?>><label>HTML</label>
+                            <input type="radio" name="data"         value=<?php the_field('css'); ?>><label>CSS</label>
+                            <input type="radio" name="data"         value=<?php the_field('scrum'); ?>><label>SCRUM</label>
+                            <input type="radio" name="data"         value=<?php the_field('laravel'); ?>><label>Laravel</label>
                             <input type="radio" name="data"         value=""><label><?php _e('Reset Data', 'portfolio')?></label>
                         </div>
                     <div class="datas col-md-9 xs-6 offset-5">
@@ -76,7 +73,7 @@ get_header();
                     </div>
                         
         
-                </div> -->
-           
+                </div>
+
 <?php
 get_footer();
