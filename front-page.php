@@ -2,6 +2,10 @@
 
 get_header(); ?>
 
+<?php get_template_part('global-templates/hero'); ?> 
+<?php get_template_part('global-templates/usps'); ?> 
+<?php get_template_part('global-templates/projects'); ?> 
+
 <h1 class="text-center">My Programming skills</h1>
 <p class="text-center"><i>push a button</i></p>
                 <!--The animator-->
