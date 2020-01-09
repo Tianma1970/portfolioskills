@@ -8,6 +8,30 @@ Domain Path:    /languages
 Version:        1.0
 */
 
+/*The Usps styles*/
+
+#wrapper-ck-usps {
+    background: url(https://picsum.photos/1920/500/?random);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.usp {
+    background-color: rgba(170, 170, 170, 0.76);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+/*The Projects styles*/
+
+#wrapper-ck-bikerides {
+    /*background-image: url("assets/img/ridewrapper.jpg");*/
+    background-size: cover;
+    border-radius: 20px;
+}
+
 /*The animator styles*/
 .datas{
   display: flex;

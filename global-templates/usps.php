@@ -3,8 +3,8 @@
         crossorigin="anonymous"></script>
 <?php
 
-$ck_usps = new WP_Query([
-    'post_type'         => 'ck_usp',
+$po_usps = new WP_Query([
+    'post_type'         => 'po_usps',
     'posts_per_page'    => 3,
     'order_by'          => 'title',
     'order'             => 'asc'
@@ -20,21 +20,21 @@ $ck_usps = new WP_Query([
         <?php
         //do we get anny usps?
 
-if($ck_usps->have_posts()) {
+if($po_usps->have_posts()) {
     //success
     ?>
     <div class="wrapper" id ="wrapper-ck-usps">
     
         <div id="usps-wrapper" class="container mt-3">
             <div class="rubrik col-5 md-5 xs-12 offset-3">
-                <h1 class="text-center"><?php _e('Why travelling by cycle', 'cycling'); ?></h1>
+                <h1 class="text-center"><?php _e('Usps', 'portfolio'); ?></h1>
             </div>
                     <div class="row">
 
-                        <!--Loop over the ck_usp items-->
+                        <!--Loop over the po_usps items-->
                         <?php
-                        while($ck_usps->have_posts()){
-                            $ck_usps->the_post();
+                        while($po_usps->have_posts()){
+                            $po_usps->the_post();
                             get_template_part('loop-templates/content',     'usp'); ?>
 
                         <?php
